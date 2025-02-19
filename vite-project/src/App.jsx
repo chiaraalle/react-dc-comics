@@ -7,12 +7,14 @@ Bonus:
 - Creare un componente aggiuntivo per gestire la fascia azzurra con le icone. */}
 
 import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
 
   return (
     <>
     <Header />
+    <Main />
     </>
   )
 }

@@ -37,3 +37,33 @@
     color: #0282F9;
     border-bottom: 3px solid #0282F9;
 }
+
+/*Style Main*/
+.comics{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.action-icons{
+    background-color:#0282F9;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 60px;
+   
+}
+
+.action-icons figure img {
+    width: 50px;
+}
+
+.action-icons div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-grow: 1;
+    
+}
