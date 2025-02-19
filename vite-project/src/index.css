@@ -52,8 +52,10 @@
     color: white;
     display: flex;
     align-items: center;
-    padding: 30px 60px;
-   
+}
+
+.action-icons div {
+    margin: 40px;
 }
 
 .action-icons figure img {
@@ -78,16 +80,32 @@
     color: white;
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 10px;
-    padding: 40px;
+    padding-inline: 40px;
+   
+}
+ 
+.footer-links div {
+    margin: 50px;
 }
 
 .footer-links ul li {
     list-style-type: none;
+
 }
 
 .footer-links ul li a {
     text-decoration: none;
     color: lightgray;
 }
+
+.footer-links ul li a:hover {
+    color: white;
+}
+
+.footer-social {
+    background-color: #303030;
+}
+
+

@@ -46,6 +46,27 @@ function Footer(){
                 </div>
             </section>
             <section className="footer-social">
+                <button>SIGN-UP NOW!</button>
+
+                <div>
+                    <h2>FOLLOW US</h2>
+                    <figure>
+                        <img src="./src/assets/img/footer-facebook.png" alt="" />
+                    </figure>
+                    <figure>
+                        <img src="./src/assets/img/footer-twitter.png" alt="" />
+                    </figure>
+                    <figure>
+                        <img src="./src/assets/img/footer-youtube.png" alt="" />
+                    </figure>
+                    <figure>
+                        <img src="./src/assets/img/footer-pinterest.png" alt="" />
+                    </figure>
+                    <figure>
+                        <img src="./src/assets/img/footer-periscope.png" alt="" />
+                    </figure>
+                
+                </div>
 
             </section>
         </footer>
