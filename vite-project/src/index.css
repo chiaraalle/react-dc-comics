@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&family=Sometype+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open-Sans", sans-serif;
+    line-height: 160%;
+}
+
+
+/*Style Header*/
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.container figure img {
+    width: 50px;
+}
+.container ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container ul li a {
+    text-decoration: none;
+    color: #464646;
+    padding: 10px;
+}
+
+.container ul li a:hover{
+    color: #0282F9;
+    border-bottom: 3px solid #0282F9;
+}
