@@ -1,5 +1,19 @@
 //i componenti sono delle funzioni che possiamo scrivere nel metodo classico o in arrow function
 //ci deve essere sempre il return e dentro le parentesi andremo a scrivere la logica
+
+const labels = [
+  'CHARACTERS',
+  'COMICS',
+  'MOVIES',
+  'TV',
+  'GAMES',
+  'COLLECTIBLES',
+  'VIDEOS',
+  'FANS',
+  'NEWS',
+  'SHOP'
+];
+
 function Header() {
 
     return (
@@ -10,16 +24,9 @@ function Header() {
           </figure>
 
           <ul>
-            <li><a href="">CHARACTERS</a></li>
-            <li><a href="">COMICS</a></li>
-            <li><a href="">MOVIES</a></li>
-            <li><a href="">TV</a></li>
-            <li><a href="">GAMES</a></li>
-            <li><a href="">COLLECTIBLES</a></li>
-            <li><a href="">VIDEOS</a></li>
-            <li><a href="">FANS</a></li>
-            <li><a href="">NEWS</a></li>
-            <li><a href="">SHOP</a></li>
+            (labels.map((label, index) => (
+              <li key={index}><a href="">{label}</a></li>
+            )  ))
           </ul>
         </div>
       </header>  
@@ -27,3 +34,4 @@ function Header() {
   }
 
   export default Header
+  
