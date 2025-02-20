@@ -2,6 +2,11 @@ function Footer(){
     return(
         <footer>
             <section className="footer-links">
+                   <div className="container logo-bg"></div>
+                {/* <figure>
+                    <img src="src/./assets/img/dc-logo-bg.png" alt="" />
+                </figure>*/}
+                
                 <div>
                     <h3>DC COMICS</h3>
                     <ul>
@@ -44,30 +49,34 @@ function Footer(){
                         <li><a href="">DC Power Visa</a></li>
                     </ul>
                 </div>
+            
             </section>
             <section className="footer-social">
-                <button>SIGN-UP NOW!</button>
+                <div className="container-footer">
+                    <button>SIGN-UP NOW!</button>
 
-                <div>
-                    <h2>FOLLOW US</h2>
-                    <figure>
-                        <img src="./src/assets/img/footer-facebook.png" alt="" />
-                    </figure>
-                    <figure>
-                        <img src="./src/assets/img/footer-twitter.png" alt="" />
-                    </figure>
-                    <figure>
-                        <img src="./src/assets/img/footer-youtube.png" alt="" />
-                    </figure>
-                    <figure>
-                        <img src="./src/assets/img/footer-pinterest.png" alt="" />
-                    </figure>
-                    <figure>
-                        <img src="./src/assets/img/footer-periscope.png" alt="" />
-                    </figure>
-                
+                    <div className="social-icons">
+                        <h3>FOLLOW US</h3>
+                        <figure>
+                            <img src="./src/assets/img/footer-facebook.png" alt="" />
+                        </figure>
+                        <figure>
+                            <img src="./src/assets/img/footer-twitter.png" alt="" />
+                        </figure>
+                        <figure>
+                            <img src="./src/assets/img/footer-youtube.png" alt="" />
+                        </figure>
+                        <figure>
+                            <img src="./src/assets/img/footer-pinterest.png" alt="" />
+                        </figure>
+                        <figure>
+                            <img src="./src/assets/img/footer-periscope.png" alt="" />
+                        </figure>
+
+                    </div>
+
                 </div>
-
+                
             </section>
         </footer>
     )

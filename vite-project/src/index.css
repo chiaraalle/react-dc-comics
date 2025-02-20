@@ -74,7 +74,7 @@
 
 /*Style Footer*/
 .footer-links{
-    background: url(./assets/img/footer-bg.jpg);
+    background-image: url(./assets/img/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -83,8 +83,25 @@
     justify-content: flex-start;
     gap: 10px;
     padding-inline: 40px;
-   
+   /*position: relative;*/
 }
+
+.footer-links .logo-bg{
+    background-image: url(./assets/img/dc-logo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+
+}
+/*
+.footer-links figure {
+   position: absolute;
+   left:50%;
+}
+
+.footer-links img {
+    width: 350px;
+}*/
  
 .footer-links div {
     margin: 50px;
@@ -105,7 +122,33 @@
 }
 
 .footer-social {
+    background-color: #303030;   
+}
+
+.container-footer{
+   padding: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+
+.footer-social button {
+    padding: 5px;
+    border: 2px solid #0282F9 ;
     background-color: #303030;
+    color: white;
+    font-size: medium;
+}
+
+.footer-social h3{
+    color: #0282F9;
+    
+}
+
+.footer-social .social-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 
