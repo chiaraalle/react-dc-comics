@@ -28,6 +28,7 @@ const labels = [
   'SHOP'
 ];
 
+
 function App() {
 
   return (

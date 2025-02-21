@@ -154,27 +154,23 @@ const comics = [
   ];
   
 
-function Comics(){
-    return(
+  function Comics() {
+
+    return (
         <>
-            {comics.map((comics, index) => (
-                    <div key={comics.id}>
-                    <img src={comics.thumb} alt="comics.title" />
-                    <div>
-                      <h2>{comics.title}</h2>
-                      <p>{comics.description}</p>
-                      <span>{comics.price}</span>
-                      <span>{comics.series}</span>
-                      <span>{comics.writers}</span>
-                      <span>{comics.artists}</span>
+            <div className="cards-container">
+                {comics.map(({ id, thumb, title, price }) => (
+                    <div key={id} className="card">
+                        <img src={thumb} alt={title} />
+                        <div className="card-body">
+                            <h5>{title}</h5>
+                            <span>{price}</span>
+                        </div>
                     </div>
-                  </div>
-                  
-            ))}
-        
+                ))}
+            </div>
         </>
-        
-    )
+    );
 }
 
 export default Comics

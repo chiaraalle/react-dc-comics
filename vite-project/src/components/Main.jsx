@@ -4,7 +4,7 @@ function Main(){
     return (
         <main>
             <section className="comics">
-              <Comics />
+            <Comics  />
             </section>
             <section className="action-icons">
                 <div>
