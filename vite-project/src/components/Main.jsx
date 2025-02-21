@@ -1,8 +1,10 @@
+import Comics from "./Comics";
+
 function Main(){
     return (
         <main>
             <section className="comics">
-              <span>-- Content goes here --</span>
+              <Comics />
             </section>
             <section className="action-icons">
                 <div>

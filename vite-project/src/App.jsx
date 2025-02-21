@@ -5,8 +5,10 @@ Note:
 - Il font utilizzato è Open Sans
 Bonus:
 - Creare un componente aggiuntivo per gestire la fascia azzurra con le icone. 
-
 creando un array di link nell’header e sfruttandolo in maniera dinamica. Una volta fatto, provate a centralizzare i dati in App.jsx e a passarli come prop.
+
+ create un nuovo componente riutilizzabile per visualizzare le card dei fumetti, sfruttando l’array di oggetti in allegato.
+Una volta inseriti tutti i contenuti dinamicamente, completate il vostro layout e rifinite i dettagli col CSS.
 */}
 
 import Header from "./components/Header";
