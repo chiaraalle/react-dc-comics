@@ -156,7 +156,24 @@ const comics = [
 
 function Comics(){
     return(
-        <span>-- content goes here --</span>
+        <>
+            {comics.map((comics, index) => (
+                    <div key={comics.id}>
+                    <img src={comics.thumb} alt="comics.title" />
+                    <div>
+                      <h2>{comics.title}</h2>
+                      <p>{comics.description}</p>
+                      <span>{comics.price}</span>
+                      <span>{comics.series}</span>
+                      <span>{comics.writers}</span>
+                      <span>{comics.artists}</span>
+                    </div>
+                  </div>
+                  
+            ))}
+        
+        </>
+        
     )
 }
 
